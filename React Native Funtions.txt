@@ -1,0 +1,27 @@
+Declaring Functions in React Native:
+
+Example:
+********
+
+import React from 'react';
+import { Text } from 'react-native';
+
+const getFullName = (firstName, secondName, thirdName) => {
+  return firstName + " " + secondName + " " + thirdName;
+}
+
+const Cat = () => {
+  return (
+    <Text>
+      Hello, I am {getFullName("Rum", "Tum", "Tugger")}!
+    </Text>
+  );
+}
+
+export default Cat;
+
+
+Explain:
+*******
+
+getFullName is the Function Declared on the React With Using Three Argument.
