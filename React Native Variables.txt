@@ -1,0 +1,22 @@
+Declaring Variables in React Native:
+
+Example:
+********
+
+import React from 'react';
+import { Text } from 'react-native';
+
+const Cat = () => {
+  const name = "Maru";
+  return (
+    <Text>Hello, I am {name}!</Text>
+  );
+}
+
+export default Cat;
+
+
+Explain:
+*******
+
+name is the Variable used to Store the Value. React Native and React used {} for run Variables and Function inline Coding
