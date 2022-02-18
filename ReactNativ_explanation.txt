@@ -1,0 +1,63 @@
+React Native Basics:
+-------------------------
+
+
+Step 1:	  import React from 'react';
+
+The Step 1 is used to import the React Componet from the import command
+
+Step 2:  import {Text} from 'react-native';
+
+It is used to importing react-native Components.
+
+Step 3:
+
+Create a Funtion or a Class to define a React Program.
+
+Step 4:
+
+Name The Funtion in react is deffer to other Language.
+
+Ex: 
+
+const Sample = () => {
+
+};
+
+Sample is a Funtion Name and the function assigned the argument using the assignment Operator and the Arrow Funtion is Called.
+
+Step 5:
+
+return a Values on the funtion is rendering on the page.
+
+Ex:
+
+const Sample = () => {
+    return <Text>Alhamthulillah</Text>;
+};
+
+Text is rendering to display the Value on the Screen.
+
+Step 6:
+
+Finally Export the Function to the Export Keyword using in js.
+
+Ex:
+
+export default Sample;
+
+The Sample is a Funtion Name and it is used to export the following command. it is mandatory otherwise the React Gives and Error.
+
+Sample Code:
+-----------------
+
+import React from 'react';
+import {Text} from 'react-native';
+
+const Sample = () => {
+  
+  return <Text>Alhamthulillah</Text>;
+};
+
+export default Sample;
+
