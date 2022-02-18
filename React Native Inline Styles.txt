@@ -1,0 +1,17 @@
+Inline Styles:
+***********
+
+Inline styles are the simplest way, syntactically, to style a component in React Native,
+though they are not usually the best way
+
+Example:
+********
+
+<Text>
+The quick <Text style={{fontStyle: "italic"}}>brown</Text> fox
+jumped over the lazy <Text style={{fontWeight: "bold"}}>dog</Text>.
+</Text>
+
+However, you should avoid them in general, because they’re less efficient.
+Inline style
+objects must be recreated during each render pass. 
